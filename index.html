@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.js">
+</head>
+<body> 
+  <nav id="navbar-example2" class="navbar sticky-top navbar-light bg-secondary px-3">
+    <div class="container-fluid w-75">
+      <a class="navbar-brand text-white" href="#home">John Doe</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="home"
+      class="py-5 container-fluid bg-dark text-white d-flex flex-row-reverse align-items-center justify-content-end">
+      <div class="py-5 ps-5">
+        <div class="col-lg-6 col-md-8">
+          <h1 class="fw-bolder lead display-3" style="color: #f55800">
+            Hey There. <br />
+            I’m John Doe.
+          </h1>
+          <h2 class="fs-2">I’m a Software Developer</h2>
+          <p class="fs-5 lead">
+            I can help you build a product , feature or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+      </div>
+    </section>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <section id="portfolio">
+      <div class="d-flex align-items-center justify-content-around mt-4">
+        <h4 class="fs-3">My recent work</h4>
+        <div class="border border-dark border-1 w-75" style="height: 0"></div>
+      </div>
+      <div class="d-flex flex-row justify-content-around my-4 mx-5">
+        <img src="./Images/multipost.png" alt="Multi-post Stories" width="50%" class="mx-4"/>
+        <div>
+          <h2>Multi-Post Stories</h2>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. This has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a standard dummy
+            text.
+          </p>
+          <div class="d-flex py-2">
+            <span class="badge bg-light text-dark p-2 rounded-0 btn border border-dark me-2">css</span>
+            <span class="badge bg-light text-dark p-2 rounded-0  btn border border-dark me-2">html</span>
+            <span class="badge bg-light text-dark p-2 rounded-0 btn border border-dark me-2">bootstrap</span>
+            <span class="badge bg-light text-dark p-2 rounded-0 btn border border-dark me-2">Ruby</span>
+          </div>
+          <button class="btn-large btn btn-primary mt-3 rounded-0 border-0 rounded-0" style="background-color: #f55800">See Project</button>
+        </div>
+      </div>
+      <div class="container my-4">
+        <div class="row py-3">
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column-reverse mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-1.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+            >
+            <button
+              type="button"
+              class="btn-large btn btn-primary mt-3 mx-0 border-0 rounded-0"
+              style="background-color: #f55800"
+            >
+              See Project
+            </button>
+          </div>
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column justify-content-end align-items-center py-2 mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-2.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <p class="text-white fs-2 fw-bold w-75">
+              Data Dashboard Healthcare
+            </p>
+            <p class="text-white fs-5 w-75">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <div class="d-flex py-2 w-75">
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >html</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >bootstrap</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >Ruby</span
+              >
+            </div>
+          </div>
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column justify-content-end align-items-center py-2 mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-3.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <p class="text-white fs-2 fw-bold w-75">Website Protfolio</p>
+            <p class="text-white fs-5 w-75">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <div class="d-flex py-2 w-75">
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >html</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >bootstrap</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >Ruby</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column justify-content-end align-items-center py-2 mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-4.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <p class="text-white fs-2 fw-bold w-75">
+              Profesional Art Printing Data More
+            </p>
+            <p class="text-white fs-5 w-75">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <div class="d-flex py-2 w-75">
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >html</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >bootstrap</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >Ruby</span
+              >
+            </div>
+          </div>
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column justify-content-end align-items-center py-2 mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-2.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <p class="text-white fs-2 fw-bold w-75">
+              Data Dashboard Healthcare
+            </p>
+            <p class="text-white fs-5 w-75">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <div class="d-flex py-2 w-75">
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >html</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >bootstrap</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >Ruby</span
+              >
+            </div>
+          </div>
+          <div
+            class="col card border border-0 rounded-0 d-flex flex-column justify-content-end align-items-center py-2 mx-3 px-0"
+            style="
+              height: 30rem;
+              background-image: url('./Images/card-image-3.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <p class="text-white fs-2 fw-bold w-75">Website Protfolio</p>
+            <p class="text-white fs-5 w-75">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <div class="d-flex py-2 w-75">
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >html</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >bootstrap</span
+              >
+              <span class="badge bg-secondary p-2 btn border border-0 rounded-0 me-2"
+                >Ruby</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about"
+      class="py-5 container-fluid bg-dark text-white d-flex flex-row-reverse align-items-center justify-content-end pb-0" style="height: 650px;">
+      <div class="py-5 ps-5">
+        <div class="col-lg-6 col-md-8">
+          <h2 class=" fw-bolder lead display-3 " style="color: #F55800">
+            About Me
+          </h2>
+          <p class="fs-5 lead">
+            Hey there! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <button class="btn-large btn btn-primary mt-3 border-0 rounded-0" style="background-color: #F55800">See Project</button>
+        <div class="border border-light border-1 w-75" style="height: 0;     margin-top: 66px;
+        margin-left: 111px;"></div>
+      </section>
+      <div
+      class="py-5 container-fluid bg-dark text-white d-flex flex-row-reverse align-items-top justify-content-end" id="about" style="height: 400px; padding-left: 120px;">
+      <div class="container ps-5">
+        <div class="row">
+          <div class="col-sm">
+            <h3>Languages</h3>
+            <h5 class="lead pt-2">Javascripts</h5>
+            <h5 class="lead pt-2">Ruby</h5>
+            <h5 class="lead pt-2">HTML</h5>
+            <h5 class="lead pt-2">CSS</h5>
+          </div>
+          <div class="col-sm">
+            <h3>Frameworks</h3>
+            <h5 class="lead pt-2">Bootstrap</h5>
+            <h5 class="lead pt-2">Ruby on Rails</h5>
+            <h5 class="lead pt-2">RsPec</h5>
+            <h5 class="lead pt-2">CapyBara</h5>
+            <h5 class="lead pt-2">Selenium</h5>
+          </div>
+          <div class="col-sm">
+            <h3>Skills</h3>
+            <h5 class="lead pt-2">CodeKit</h5>
+            <h5 class="lead pt-2">Github</h5>
+            <h5 class="lead pt-2">CodePen</h5>
+            <h5 class="lead pt-2">GitLab</h5>
+            <h5 class="lead pt-2">Terminal</h5>
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+    </div>
+    <div>
+    <h4 id="contact" class="w-25 fs-2" style="margin-left: 56px; margin-top: 68px;" >I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+    <div class="d-flex float-end" style="position: relative; top: -167px; right: 414px;;">
+    <div class="mb-3" style="position: relative; bottom: 18px; left: 195px;">
+      <label for="Input1" class="form-label">First Name</label>
+      <input type="email" class="form-control" id="Input1" placeholder="First Name">
+    </div>
+    <div class="mb-3" style="position: relative; bottom: 19px; left: 175px;">
+      <label for="Input1" class="form-label">Last Name</label>
+      <input type="name" class="form-control" id="Input1" placeholder="Last Name">
+    </div>
+    <div class="mb-3" style="position: relative; top: 87px; left: -219px;">
+      <label for="Input1" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="Input1" placeholder="email">
+    </div>
+  </div>
+    <div class="d-flex float-end" style="position: relative; bottom: -5px; left: -36px;">
+    <div class="mb-3">
+      <label for="Textarea1" class="form-label">textarea</label>
+      <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+    </div>
+  </div>
+  </div>
+    
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous">
+    </script>
+ 
+</body>
+</html>
